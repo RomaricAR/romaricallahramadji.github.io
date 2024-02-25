@@ -11595,8 +11595,8 @@ html {
 }
 
 .screenshot-img {
-    width: 200px;
+    width: 250px;
     max-width: 100%; /* Allow resizing up to the original size */
     height: auto; /* Allow height to adjust automatically to maintain aspect ratio */
-    border-radius: 1%;
+  
 }
