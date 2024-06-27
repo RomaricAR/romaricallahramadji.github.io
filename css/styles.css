@@ -6812,6 +6812,11 @@ textarea.form-control-lg {
   z-index: 1020;
 }
 
+.padded-section {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 @media (min-width: 576px) {
   .sticky-sm-top {
     position: sticky;
