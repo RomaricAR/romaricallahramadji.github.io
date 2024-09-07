@@ -11592,6 +11592,7 @@ html {
   margin-top: 5vw;
   max-height: 40rem;
   max-width: 40rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .profile-img {
@@ -11600,9 +11601,63 @@ html {
   border-radius: 50%;
 }
 
+
+
+.screenshot-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 15px 0;
+  -webkit-overflow-scrolling: touch;
+  /* background-color: #f8f9fa;  */
+}
 .screenshot-img {
-    width: 250px;
-    max-width: 100%; /* Allow resizing up to the original size */
-    height: auto; /* Allow height to adjust automatically to maintain aspect ratio */
-  
+  height: auto;
+  max-height: 500px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.screenshot-img:hover {
+  transform: scale(1.05);
+}
+
+.app-showcase {
+  background-color: #f8f9fa;
+  padding: 30px 0;
+  margin-top: 30px;
+}
+
+.app-badge {
+  max-width: 200px;
+}
+
+.app-badge:hover {
+  transform: scale(1.05);
+}
+
+.profile-info .profile-img {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.profile-info .profile-img:hover {
+    transform: scale(1.05);
+}
+
+.professional-summary {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+    color: #4a4a4a;
+}
+
+.profile-info .badge {
+    font-size: 1rem;
+    padding: 0.5em 1em;
 }
