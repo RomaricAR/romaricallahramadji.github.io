@@ -11584,7 +11584,7 @@ html {
   font-size: 1.5rem;
 }
 
-.profile {
+/* .profile {
   position: relative;
   height: 75vw;
   width: 75vw;
@@ -11593,13 +11593,13 @@ html {
   max-height: 40rem;
   max-width: 40rem;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
+} */
 
-.profile-img {
+/* .profile-img {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-}
+} */
 
 
 
@@ -11609,7 +11609,6 @@ html {
   gap: 10px;
   padding: 15px 0;
   -webkit-overflow-scrolling: touch;
-  /* background-color: #f8f9fa;  */
 }
 .screenshot-img {
   height: auto;
